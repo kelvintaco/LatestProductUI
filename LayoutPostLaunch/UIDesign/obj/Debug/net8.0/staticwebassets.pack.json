@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kelvin.memije\\source\\repos\\LayoutPostLaunch\\UIDesign\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UIDesign.bundle.scp.css",
+      "PackagePath": "staticwebassets\\UIDesign.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kelvin.memije\\source\\repos\\LayoutPostLaunch\\UIDesign\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\kelvin.memije\\source\\repos\\LayoutPostLaunch\\UIDesign\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kelvin.memije\\source\\repos\\LayoutPostLaunch\\UIDesign\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kelvin.memije\\source\\repos\\LayoutPostLaunch\\UIDesign\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\kelvin.memije\\source\\repos\\LayoutPostLaunch\\UIDesign\\wwwroot\\images\\IQNET LOGO.png",
+      "PackagePath": "staticwebassets\\images\\IQNET LOGO.png"
+    },
+    {
+      "Id": "C:\\Users\\kelvin.memije\\source\\repos\\LayoutPostLaunch\\UIDesign\\wwwroot\\images\\VO_banner_WD.jpg",
+      "PackagePath": "staticwebassets\\images\\VO_banner_WD.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.UIDesign.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.UIDesign.props",
+      "PackagePath": "build\\UIDesign.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.UIDesign.props",
+      "PackagePath": "buildMultiTargeting\\UIDesign.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.UIDesign.props",
+      "PackagePath": "buildTransitive\\UIDesign.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

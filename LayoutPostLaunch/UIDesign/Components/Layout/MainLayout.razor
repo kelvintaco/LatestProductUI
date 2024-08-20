@@ -1,0 +1,85 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+
+    <main>
+
+        <div id="Banner">
+            <div class="col-md-3">
+                <img src="images/IQNET LOGO.png" alt="Banner Image" class="banner-image img-fluid rounded" id="BannerImage">
+            </div>
+        </div>
+        <fieldset>
+            <legend id="legendclass">Product Post Launch Query</legend>
+            <div id="divfieldsetsearchwrapper">
+                <title> </title>
+                <form name="form1" id="form1">
+                    <div id="divsearchType" >
+                        <fieldset id="fieldsetclassnoborder" style="height: 100px">
+                            <table border="0px">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span>
+                                                <input id="SearchExactDate" type="radio" name="SearchMode" value="SearchAdvanceDate" checked="checked"/>
+                                                <label id="labelforsearchexactdate" for="SearchExactDate">Search By Specific Date Range</label>
+                                            </span>
+                                            <span>
+                                                <input id="SearchAdvanceDate" type="radio" name="SearchMode" value="SearchAdvance Date" />
+                                                <label for="SearchAdvanceDate">Search By</label>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </div>
+                    <div class="dividersearch"></div>
+                    <div id="searchform">
+                        <fieldset id="fieldsetclassnoborder" style="width: 230px; height: 100px; padding-left: 7px">
+                            Date and Time From:
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <label for="datetime">Date & Time</label>
+                                            <input id="datetime" name="datetimeu" type="datetime-local" value="date and time"/>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </div>
+                    <div class="dividersearch px-2"></div>
+                    <div id="divsearchtoParent" style="display: inline-block">
+                        <div id="divsearchto">
+                            <fieldset id="fieldsetclassnoborder" style="height: 100px; padding-left: 7px">
+                                Date and Time From:
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <label for="datetime">Date & Time</label>
+                                                <input id="datetime" name="datetimeu" type="datetime-local" value="date and time" />
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </fieldset>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </fieldset>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
